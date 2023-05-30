@@ -5,7 +5,7 @@ This repository contains code for data analysis, feature selection, benchmarking
 ## Prerequisites
 
 - Python 3.7 or higher
-- Required Python packages: sklearn, xgboost, numpy, pandas, matplotlib, seaborn
+- Required Python packages: sklearn, xgboost, numpy, pandas, matplotlib, seaborn, shap, mlxtend
 
 ## Getting Started
 
