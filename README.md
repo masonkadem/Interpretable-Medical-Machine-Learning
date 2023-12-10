@@ -1,6 +1,10 @@
 # README
 
-This repository contains code for data analysis, feature selection, benchmarking, and interpretability using machine learning models. The code focuses on two experimental datasets (Exp1 and Exp2) and utilizes the ADNI (Alzheimer's Disease Neuroimaging Initiative) dataset.
+This repository contains code for data analysis, feature selection, benchmarking, and interpretability using machine learning models. The code focuses on the first experiment and utilizes the ADNI (Alzheimer's Disease Neuroimaging Initiative) dataset.
+
+Abstract:
+
+Despite their necessity in directing patient care worldwide, simple and accurate diagnostic tools for early Alzheimer’s disease (AD) do not exist. To support healthcare decision-making and planning, this research leverages large, multi-site accessible data and state-of-the-art supervised machine learning (XGBoost) to enable rapid, accurate, low-cost, accessible, non-invasive, interpretable, and early clinical evaluation of AD. Machine learning was employed to combine three key features: Everyday Cognition Questionnaire, Alzheimers Disease Assessment Scale, and Delayed Total Recall, achieving area under the receiver operating characteristic curves scores consistently above 97%. The selected features are important because they are non-invasive and easily collected. Low performance on delayed recall alone appears to distinguish most AD patients, consistent with the pathophysiology of AD where individuals having problems storing new information into long-term memory. Distinguishing this research from existing literature was the focus of enhancing the model's interpretability while maintaining performance of more complex and opaque models. The interpretable model enables understanding of the decision process, vital for clinical adoption of machine learning tools in AD evaluation. In summary, we present a methodology which identified accessible and noninvasive features, each with their absolute thresholds, together with a clinically operable decision route, to accurately and rapidly detect, differentiate, and diagnose Alzheimer's disease patients.
 
 ## Prerequisites
 
@@ -50,10 +54,14 @@ python main.py
    - The compare function evaluates the performance of selected features with different models.
 
 4. Interpretability:
-   - The code provides interpretability techniques for machine learning models.
-   - The single_tree function generates a decision tree plot and calculates feature importance using SHAP values.
+   - The code booosts interpretability for machine learning models.
 
 ## License
 
 This project is licensed under the MIT License.
+
+For the paper: 
+
+Kadem, M. et al. (2023). XGBoost for Interpretable Alzheimer’s Decision Support. Association for the Advancement of Artificial Intelligence.
+
 
